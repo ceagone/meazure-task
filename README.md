@@ -62,7 +62,7 @@ This terraform code will create a VPC, GKE and deploy openfaas. Below are detail
 
 * After resources are done creating, you should have `password.txt` file available in your `PWD`, which holds the password to accessing the deployed openfaas UI.
 
-* Run ``` kubectl get svc -n openfaas ``` to access the LoadBalancer IP address to access openfaas. Paste `LB_IP-ADDR:8080`to access the UI. Provide `username` as `admin` and `password` as the credentials in the password.txt file you have.
+* Run ``` kubectl get svc -n openfaas ``` to access the LoadBalancer IP address to access openfaas. Paste `LB_IP-ADDR:8080`to access the UI. Provide `username` as `admin` and `password` as the credentials in the `password.txt` file you have.
 
 
 ## To Destroy
