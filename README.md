@@ -31,7 +31,7 @@ This terraform code will create a VPC, GKE and deploy openfaas. Below are detail
 
 *  ``` gcloud projects list ``` : To verify the project you just set is available.
 
-* ``` git clone https://github.com/aogunfowora/meazure-task-1.git ``` : To clone the terraform task's repo and cd into the `meazure-task-1` folder.
+* ``` git clone https://github.com/aogunfowora/meazure-task.git ``` : To clone the terraform task's repo and cd into the `meazure-task` folder.
 
 * Copy the service account's `.json` file in to the `meazure-task-1` folder. (I'd suggest you renaming it as the name will be required as part of the input variable for your tfvars).
 
