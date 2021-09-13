@@ -1,8 +1,9 @@
 # Meazure Terraform Task
 
-This is the terraform task is to create a cluster and deploy openfaas using Helm. 
+The terraform task is to create a cluster and deploy openfaas using Helm. 
 
 This terraform code will create a VPC, GKE and deploy openfaas. Below are details and instructions to deploy.
+
 ## Requirements
 
 * Gcloud CLI
