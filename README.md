@@ -17,7 +17,7 @@ This terraform code will create a VPC, GKE and deploy openfaas. Below are detail
 
 * Create a GCP project.
 
-* Create a service account with admin access (I gave it a full access to avoid some permission errors).
+* Create a service account with necessary access (I gave it a full access to avoid some permission errors). I commented out some details about including your service account in the `gke.tf` if need be to include it.
 
 * Generate your new ```.json``` service account key-pair and download it.
 
